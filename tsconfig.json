@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "outDir": "./dist",
+    "module": "ESNext",
+    "baseUrl": "src",
+    "moduleResolution": "node",
+    "strict": true,
+    "skipLibCheck": true,
+    "types": [
+      "node",
+      "vite/types/importMeta"
+    ],
+    "resolveJsonModule": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

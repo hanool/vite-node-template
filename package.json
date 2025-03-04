@@ -1,0 +1,36 @@
+{
+  "name": "vite-node-app-template",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "format": "prettier . --write",
+    "dev": "vite-node --watch src/",
+    "build": "vite build",
+    "test": "vitest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@rollup/plugin-esm-shim": "^0.1.8",
+    "@types/eslint__js": "^9.14.0",
+    "@types/eslint-config-prettier": "^6.11.3",
+    "@types/node": "^22.13.9",
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.2",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "rollup-plugin-node-externals": "^8.0.0",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.0",
+    "vite": "^6.2.0",
+    "vite-node": "^3.0.7",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.0.7"
+  },
+  "overrides": {
+    "vite": {
+      "esbuild": "^0.25.0"
+    }
+  }
+}
