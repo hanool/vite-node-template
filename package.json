@@ -11,21 +11,21 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@eslint/js": "^9.28.0",
+    "@eslint/js": "^9.29.0",
     "@rollup/plugin-esm-shim": "^0.1.8",
     "@types/eslint__js": "^9.14.0",
     "@types/eslint-config-prettier": "^6.11.3",
-    "@types/node": "^22.15.29",
-    "eslint": "^9.28.0",
+    "@types/node": "^24.0.4",
+    "eslint": "^9.29.0",
     "eslint-config-prettier": "^10.1.5",
     "globals": "^16.2.0",
-    "prettier": "^3.5.3",
-    "rollup-plugin-node-externals": "^8.0.0",
+    "prettier": "^3.6.1",
+    "rollup-plugin-node-externals": "^8.0.1",
     "typescript": "^5.8.3",
-    "typescript-eslint": "^8.33.1",
-    "vite": "^6.3.5",
-    "vite-node": "^3.2.0",
+    "typescript-eslint": "^8.35.0",
+    "vite": "npm:rolldown-vite@latest",
+    "vite-node": "^3.2.4",
     "vite-tsconfig-paths": "^5.1.4",
-    "vitest": "^3.2.0"
+    "vitest": "^3.2.4"
   }
 }
