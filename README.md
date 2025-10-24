@@ -9,7 +9,7 @@ Simple template using vite, vite-node to run, test, bundle node app.
 
 ```bash
 git clone https://github.com/hanool/vite-node-template --depth 1 --branch main your-path-to-project
-cd your-paht-to-project
+cd your-path-to-project
 rm -rf .git
 ```
 
