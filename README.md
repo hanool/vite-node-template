@@ -1,8 +1,8 @@
 # NodeJS development template
-Simple template using vite, vite-node to run, test, bundle node app.
+Simple template using vite to run, test, bundle node app.
 
 - configure node app with vite
-- runs dev server with vite-node, supports HMR(Hot Module Reload).
+- runs dev server with vite, supports HMR(Hot Module Reload).
 - bundles to dist/index.js
 
 ## Creating new node project
