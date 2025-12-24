@@ -1,3 +1,4 @@
+/// <reference types="vitest/config" />
 import { defineConfig } from 'vite'
 import tsconfigPaths from 'vite-tsconfig-paths'
 import nodeExternals from 'rollup-plugin-node-externals'
@@ -25,11 +26,7 @@ export default defineConfig({
     tsconfigPaths(),
   ],
   test: {
-    poolOptions: {
-      forks: {
-        singleFork: true,
-      },
-    },
+    maxWorkers: 1,
     reporters: ['verbose'],
   },
 })
