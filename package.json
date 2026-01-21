@@ -14,17 +14,18 @@
     "@rollup/plugin-esm-shim": "^0.1.8",
     "@types/eslint__js": "^9.14.0",
     "@types/eslint-config-prettier": "^6.11.3",
-    "@types/node": "^25.0.5",
+    "@types/node": "^25.0.9",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "globals": "^17.0.0",
-    "prettier": "^3.7.4",
+    "prettier": "^3.8.0",
     "rollup-plugin-node-externals": "^8.1.2",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.52.0",
+    "typescript-eslint": "^8.53.1",
     "vite": "npm:rolldown-vite@latest",
     "vite-tsconfig-paths": "^6.0.4",
-    "vitest": "^4.0.16"
+    "vite-tsconfig-paths": "^6.0.4",
+    "vitest": "^4.0.17"
   },
   "volta": {
     "node": "24.11.0"
