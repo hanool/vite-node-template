@@ -3,15 +3,19 @@
     "target": "ESNext",
     "outDir": "./dist",
     "module": "ESNext",
-    "baseUrl": "src",
-    "moduleResolution": "node",
+    "moduleResolution": "Bundler",
     "strict": true,
     "skipLibCheck": true,
     "types": [
       "node",
-      "vite/types/importMeta"
+      "vite/client"
     ],
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "paths": {
+      "*": [
+        "./src/*"
+      ]
+    },
   },
   "exclude": [
     "node_modules"

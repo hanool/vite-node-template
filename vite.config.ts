@@ -1,6 +1,5 @@
 /// <reference types="vitest/config" />
 import { defineConfig } from 'vite'
-import tsconfigPaths from 'vite-tsconfig-paths'
 import nodeExternals from 'rollup-plugin-node-externals'
 import esmShim from '@rollup/plugin-esm-shim'
 
@@ -15,6 +14,7 @@ export default defineConfig({
   resolve: {
     mainFields: ['module', 'jsnext:main', 'jsnext'],
     conditions: ['node'],
+    tsconfigPaths: true,
   },
   plugins: [
     esmShim(),
@@ -23,7 +23,6 @@ export default defineConfig({
       ...nodeExternals(),
       apply: 'build',
     },
-    tsconfigPaths(),
   ],
   test: {
     maxWorkers: 1,
